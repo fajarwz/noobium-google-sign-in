@@ -52,7 +52,7 @@ export default function Home() {
               .then((data) => setJsonResponse(data))
               .catch((error) => {
                 setIsError(true)
-                console.log(error.TypeError);
+                console.log(error);
               });
           }}
           onError={() => {
